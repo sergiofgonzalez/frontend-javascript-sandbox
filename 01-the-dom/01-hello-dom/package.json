@@ -1,5 +1,5 @@
 {
-  "name": "00-prj-template-koa",
+  "name": "koa-http-server",
   "version": "0.0.1",
   "description": "Simple static HTTP server based on the Koa framework",
   "main": "index.js",
