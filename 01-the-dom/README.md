@@ -2,7 +2,7 @@
 > Basic DOM related examples
 
 ## [00 &mdash; Koa Project Template](./00-prj-template-koa/)
-A Koa based project template configured to serve a fronted app.
+A Koa based project template configured to serve a frontend app.
 
 ## [01 &mdash; Hello DOM](./01-hello-dom/)
 Illustrates the basics of DOM traversing by creating an application that traverses the DOM tree looking for a given text string in the given HTML.
@@ -22,5 +22,5 @@ A more involved example built on top of [01 &mdash; Hello DOM](./01-hello-dom/).
 ## [e02 &mdash; Replacing Images by Text Nodes](./e02-replacing-imgs-by-text-nodes/)
 Illustrates how to change the images found in the document by text nodes containing the value of the image `alt` attribute.
 
-## [e03 &mdash; Creating Nodes Dynamically](./e03-replacing-imgs-by-text-nodes/)
-Illustrates how to change the images found in the document by text nodes containing the value of the image `alt` attribute.
+## [e03 &mdash; Creating Nodes Dynamically](./e03-adding-elements-by-time/)
+Illustrates how to add elements to the DOM with an example that appends a row to a table with a given frequency.
