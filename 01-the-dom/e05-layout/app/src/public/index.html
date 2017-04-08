@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Understanding DOM Layout Considerations!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Barça vs. Malaga 0 - 0, pero cuanto va?</h1>
+      <p class="lead">
+        In this example we illustrate how to read layout information and alternate frequent read/write in
+        an efficient way.
+      </p>
+      <hr class="my-4">
+      <p>
+        Have a look at the console to see the results of executing the JavaScript logic
+      </p>
+    </div>
+    <div class="container">
+      This is some random text to exemplify that block elements are not mixed with their surroundings.
+      <h1 id="one">This is a block element, and it takes up the whole width of the document and is rendered in its own block</h1>
+      This is some more random text to exemplify that <p>Dragons exist</p> and can be defeated.
+      <br>
+      However, <strong>inline</strong> elements such as <a href="#">anchors</a> are rendered inline with their surroundings.
+    </div>
+    <div class="alert alert-info" id="infobox">
+    </div>
+    <script src="js/app.js"></script>    
+  </body>
+</html>

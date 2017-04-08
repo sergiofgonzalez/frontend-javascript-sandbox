@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Reading and Writing Attributes of Node Elements!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Reading and Writing Attibutes of Node Elements</h1>
+      <p class="lead">
+        In this example we illustrate how to read and write arbitrary attributes of DOM elements
+      </p>
+      <hr class="my-4">
+      <p>
+        Have a look at the console to see the results of executing the JavaScript logic
+      </p>
+    </div>
+    <form>
+    <div class="container">
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Username</label>
+        <div class="col-sm-10">
+          <p class="form-control-static">sergiofgonzalez</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+          <p class="form-control-static" data-classification="secret">super-secret-password</p>
+        </div>
+      </div>
+    </div>    
+    <script src="js/app.js"></script>    
+  </body>
+</html>

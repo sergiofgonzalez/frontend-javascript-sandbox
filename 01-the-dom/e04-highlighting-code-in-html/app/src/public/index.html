@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Simplistic Syntax Highlighting!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Simplistic Syntax Highlighting</h1>
+      <p class="lead">
+        In this example we illustrate how to traverse the DOM and read node attributes
+        to highlight specific words found in the page.
+      </p>
+      <hr class="my-4">
+    </div>
+    <div class="alert alert-warning">
+      <pre data-language="javascript">
+        "use strict";
+
+        function getGreeting(name = "Jason Isaacs") {
+          const message = `Hello to ${ name }!!!`;
+          return message;
+        }
+
+        console.log(getGreeting());
+        console.log(getGreeting("sergio"));
+      </pre>
+    </div>
+    <div class="alert alert-info">
+      <pre data-language="Java">
+        package examples;
+
+        class Runner {
+          void main() {
+            System.out.println("Hello!");
+          }
+        }
+      </pre>
+    </div>
+    <div class="alert alert-warning">
+      <pre>
+        #include <iostream>
+
+        void main() {
+          cout << "Hello, again!!!";
+        }
+      </pre>      
+    </div>    
+    <script src="js/app.js"></script>    
+  </body>
+</html>

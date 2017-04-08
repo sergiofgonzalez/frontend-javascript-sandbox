@@ -16,6 +16,9 @@ Illustrates the three four methods to do modifications in the DOM: `removeChild`
 ## [04 &mdash; Creating Nodes in the DOM](./04-creating-nodes-in-the-dom/)
 Illustrates how to create elements in the DOM using a custom support function.
 
+## [05 &mdash; Reading and Writing Node Attributes](./05-reading-and-writing-node-attribs/)
+Illustrates how to create elements in the DOM using a custom support function.
+
 ## [e01 &mdash; Hello DOM](./e01-hello-dom/)
 A more involved example built on top of [01 &mdash; Hello DOM](./01-hello-dom/).
 
@@ -24,3 +27,6 @@ Illustrates how to change the images found in the document by text nodes contain
 
 ## [e03 &mdash; Creating Nodes Dynamically](./e03-adding-elements-by-time/)
 Illustrates how to add elements to the DOM with an example that appends a row to a table with a given frequency.
+
+## [e04 &mdash; Highlighting Code in HTML](./e04-highlighting-code-in-html/)
+Illustrates how build a simplistic syntax highligther for JavaScript that demonstrates how to modify the DOM, create new elements and read element attributes.
