@@ -19,6 +19,9 @@ Illustrates how to create elements in the DOM using a custom support function.
 ## [05 &mdash; Reading and Writing Node Attributes](./05-reading-and-writing-node-attribs/)
 Illustrates how to create elements in the DOM using a custom support function.
 
+## [06 &mdash; Layout Considerations](./06-layout-considerations/)
+Illustrates how solutions frequently reading and writing the DOM is really slow solution.
+
 ## [e01 &mdash; Hello DOM](./e01-hello-dom/)
 A more involved example built on top of [01 &mdash; Hello DOM](./01-hello-dom/).
 
@@ -29,4 +32,8 @@ Illustrates how to change the images found in the document by text nodes contain
 Illustrates how to add elements to the DOM with an example that appends a row to a table with a given frequency.
 
 ## [e04 &mdash; Highlighting Code in HTML](./e04-highlighting-code-in-html/)
-Illustrates how build a simplistic syntax highligther for JavaScript that demonstrates how to modify the DOM, create new elements and read element attributes.
+Illustrates how build a simplistic syntax highlighter for JavaScript that demonstrates how to modify the DOM, create new elements and read element attributes.
+
+## [e05 &mdash; Reading the Layout Properties](./e05-reading-the-layout-properties/)
+Illustrates how to read HTML layout properties such as `offsetWidth`, `offsetHeight`, `clientWidth`, `clientHeight` and `getBoundingClientRect()`.
+
