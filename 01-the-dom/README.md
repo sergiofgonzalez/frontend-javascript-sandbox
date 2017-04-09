@@ -28,6 +28,9 @@ Illustrates how to use `style` element attribute in an HTML document, and how to
 ## [08 &mdash; Cascading Style Sheets](./08-css/)
 An HTML that references a custom CSS and that illustrates some of the basic CSS features and syntax.
 
+## [09 &mdash; Querying DOM Nodes](./09-querying-dom-nodes/)
+Illustrates how to use `querySelectorAll` with different declarations to obtain references to nodes in the DOM.
+
 ## [e01 &mdash; Hello DOM](./e01-hello-dom/)
 A more involved example built on top of [01 &mdash; Hello DOM](./01-hello-dom/).
 

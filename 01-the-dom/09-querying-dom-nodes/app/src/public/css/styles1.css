@@ -1,0 +1,14 @@
+.animal {
+  color: green;
+  font-style: italic;
+}
+
+.character {
+  color: purple;
+  font-weight: bold;
+}
+
+.character > .animal {
+  color: orange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
