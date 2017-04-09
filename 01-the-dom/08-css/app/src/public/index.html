@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Cascading Style Sheets!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles1.css">
+
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Cascading Style Sheets (CSS)</h1>
+      <p class="lead">
+        In this example we illustrate how the basics of CSS
+      </p>
+      <hr class="my-4">
+      <p>
+        This is a <code>strong</code> element affected by the rule defined: <strong>Mark Strong</strong>
+      </p>
+      <p>
+        This is an element defined with <code>class="subtle"</code>: <span class="subtle">A subtle difference!!!</span>
+      </p>      
+      <p>
+        This is an element defined with <code>id="msg"</code>: <span id="msg">An important message</span>
+      </p>
+      <div>
+        Checking the rule `p.a.b#main`.
+        <p>This is a <code>p</code>: Lorem Ipsum</p>
+        <p class="a">This is a <code>p class="a"</code>: Lorem Ipsum</p>        
+        <p class="a" id="main">This is a <code>p class="a" id="main</code>: Lorem Ipsum</p>                
+        <p class="a" class="b">This is a <code>p class="a" class="b"</code>: Lorem Ipsum</p>
+        <p class="a" class="b" id="main">This is a <code>p class="a" class="b" id="main"</code>: Lorem Ipsum</p>
+        <p class="a b" id="main">This is a <code>p class="a b" id="main"</code>: Lorem Ipsum</p>        
+      </div>
+      <div>
+        This is a link that is not a children of a <code>p</code>: <a href="#">a link</a>
+        <p>
+          This is a link that is a direct children of a <code>p</code>: <a href="#">magenta link</a>
+        </p>
+        <p>
+          This is a link that is a non-direct children of a <code>p</code>: 
+          <div>
+            <a href="#">Orange link</a>
+          </div>
+        </p>
+      </div>
+      <div>
+        <p>
+          This is a span direct children of an a: <a href="#"><span>weirdo</span></a>
+        </p>
+        <p>
+          This is a span which is not a direct children of an a: <a href="#"><div><span class="naranja">weirdo</span></div></a>
+        </p>     
+      </div>               
+    </div>   
+    <script src="js/app.js"></script>    
+  </body>
+</html>

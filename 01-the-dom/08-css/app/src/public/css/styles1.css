@@ -1,0 +1,26 @@
+strong {
+  font-style: italic;
+  color: gray;
+}
+
+.subtle {
+  color: gray;
+  font-size: 80%;
+}
+
+#msg {
+  color: red;
+  font-weight: bold;
+}
+
+p.a.b#main {
+  color: green;
+}
+
+p a {
+  color: magenta;
+}
+
+a > .naranja {
+  color: orange;
+}

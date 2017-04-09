@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Changing the Style of DOM Elements!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Changing the Style of DOM Elements</h1>
+      <p class="lead">
+        In this example we illustrate how to use the <code>style</code> element attribute
+        to change the default styling of DOM elements
+      </p>
+      <hr class="my-4">
+      <p>
+        This is an <code>a</code> element styled with <code>color: green</code>: <a href="#" style="color: green">styled link</a>
+      </p>
+      <p>
+        This is an <code>a</code> element styled several declarations: <a href="#" style="color: red; text-decoration: line-through">another link</a>
+      </p>      
+      <p>
+        This is a <code>strong</code> element styled as block: <strong style="display: block">Mark Strong</strong>
+      </p>            
+      <p>
+        This is a <code>h1</code> element styled as inline (note that it's just ignored): <h1 style="display: inline">Header Graham</h1>
+      </p>                  
+      <p>
+        This is a <code>h1</code> element styled as none: <h1 style="display: none">Header Graham</h1>
+      </p>
+      <p id="willChangeColor" style="color: purple; font-family: Verdana, Geneva, Tahoma, sans-serif">
+        This is a paragraph whose style will change after <span id="numSeconds">5 seconds</span>
+      </p>                                
+    </div>   
+    <script src="js/app.js"></script>    
+  </body>
+</html>

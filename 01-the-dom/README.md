@@ -22,6 +22,12 @@ Illustrates how to create elements in the DOM using a custom support function.
 ## [06 &mdash; Layout Considerations](./06-layout-considerations/)
 Illustrates how solutions frequently reading and writing the DOM is really slow solution.
 
+## [07 &mdash; Styling Elements](./07-styling-elements/)
+Illustrates how to use `style` element attribute in an HTML document, and how to read and modify styles from JavaScript by changing the style of a paragraph after 5 seconds.
+
+## [08 &mdash; Cascading Style Sheets](./08-css/)
+An HTML that references a custom CSS and that illustrates some of the basic CSS features and syntax.
+
 ## [e01 &mdash; Hello DOM](./e01-hello-dom/)
 A more involved example built on top of [01 &mdash; Hello DOM](./01-hello-dom/).
 
