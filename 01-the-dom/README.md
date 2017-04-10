@@ -31,6 +31,12 @@ An HTML that references a custom CSS and that illustrates some of the basic CSS 
 ## [09 &mdash; Querying DOM Nodes](./09-querying-dom-nodes/)
 Illustrates how to use `querySelectorAll` with different declarations to obtain references to nodes in the DOM.
 
+## [10 &mdash; Positioning Elements](./10-positioning-elements/)
+Illustrates how to use `position` CSS property along with `top` and `left` to position elements in the DOM outside of their default position.
+
+## [11 &mdash; Basic Animation](./11-basic-animation/)
+Illustrates how to use `requestAnimationFrame` to animate an image in the document in a circular fashion.
+
 ## [e01 &mdash; Hello DOM](./e01-hello-dom/)
 A more involved example built on top of [01 &mdash; Hello DOM](./01-hello-dom/).
 

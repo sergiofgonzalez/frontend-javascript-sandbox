@@ -1,0 +1,13 @@
+.jumbotron {
+  color: blue;
+  position: relative;
+  top: 0px;
+  left: 100px;
+}
+
+.lead {
+  color: orange;
+  position: absolute;
+  top: 50px;
+  left: -50px;
+}
