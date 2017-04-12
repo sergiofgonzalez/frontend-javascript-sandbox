@@ -22,6 +22,9 @@ Introduces basics of key event handling: `keydown`, `keyup` and `keypress` event
 ## [07 &mdash; Hello Mouse Clicks!](./07-hello-mouse-clicks/)
 Introduces basics of mouse click handling: `mousedown`, `mouseup`, `click` and `dblclick` event handling.
 
+## [08 &mdash; Hello Mouse Motion!](./07-hello-mouse-motion/)
+Introduces basics of mouse motion handling by listening to `mousemove` events.
+
 ## [e01 &mdash; Grokking State and Event Handling](./e01-grokking-document-state-and-event-handling/)
 An example that tests `addEventListener` and `removeEventListener` but intertwined with state management via element attributes and class element reading.
 

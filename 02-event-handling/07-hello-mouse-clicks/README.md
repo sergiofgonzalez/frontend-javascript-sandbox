@@ -1,5 +1,5 @@
 # 07 &mdash; Hello Mouse Clicks!
-> handling 
+> handling mouse click related events
 
 ## Description
 
