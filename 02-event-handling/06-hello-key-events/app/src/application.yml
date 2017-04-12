@@ -1,0 +1,10 @@
+#
+## Application Properties
+#
+
+logger:
+  level: DEBUG
+
+server:
+  port: 5000
+  public: "./app/src/public"

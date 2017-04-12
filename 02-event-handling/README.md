@@ -16,9 +16,8 @@ Illustrates the use of `stopPropagation` method to prevent an event that is trig
 ## [05 &mdash; Preventing Default Behavior!](./05-preventing-default-behavior/)
 Illustrates the use of `preventDefault` method to disable default actions on DOM elements. In the example, it's demonstrated how to prevent the context menu to pop-up when a `<button>` is right-clicked.
 
-## [04 &mdash; Hello Event Propagation!](./04-hello-event-propagation/)
-Introduces the event object that is passed to the listener callback and that contains information about the event.
-
+## [06 &mdash; Hello Key Events!](./06-hello-key-events/)
+Introduces basics of key event handling: `keydown`, `keyup` and `keypress` event handling.
 
 ## [e01 &mdash; Grokking State and Event Handling](./e01-grokking-document-state-and-event-handling/)
 An example that tests `addEventListener` and `removeEventListener` but intertwined with state management via element attributes and class element reading.
