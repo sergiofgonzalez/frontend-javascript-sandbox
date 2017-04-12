@@ -19,6 +19,9 @@ Illustrates the use of `preventDefault` method to disable default actions on DOM
 ## [06 &mdash; Hello Key Events!](./06-hello-key-events/)
 Introduces basics of key event handling: `keydown`, `keyup` and `keypress` event handling.
 
+## [07 &mdash; Hello Mouse Clicks!](./07-hello-mouse-clicks/)
+Introduces basics of mouse click handling: `mousedown`, `mouseup`, `click` and `dblclick` event handling.
+
 ## [e01 &mdash; Grokking State and Event Handling](./e01-grokking-document-state-and-event-handling/)
 An example that tests `addEventListener` and `removeEventListener` but intertwined with state management via element attributes and class element reading.
 
