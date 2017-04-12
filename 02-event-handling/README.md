@@ -11,7 +11,17 @@ Illustrates how to use `removeEventListener` to deregister a handler for a previ
 Introduces the event object that is passed to the listener callback and that contains information about the event.
 
 ## [04 &mdash; Hello Event Propagation!](./04-hello-event-propagation/)
+Illustrates the use of `stopPropagation` method to prevent an event that is triggered on an element to be propagated to parent elements.
+
+## [05 &mdash; Preventing Default Behavior!](./05-preventing-default-behavior/)
+Illustrates the use of `preventDefault` method to disable default actions on DOM elements. In the example, it's demonstrated how to prevent the context menu to pop-up when a `<button>` is right-clicked.
+
+## [04 &mdash; Hello Event Propagation!](./04-hello-event-propagation/)
 Introduces the event object that is passed to the listener callback and that contains information about the event.
 
-## [e01 &mdash; Grokking State and Event Handling](./e02-grokking-document-state-and-event-handling/)
+
+## [e01 &mdash; Grokking State and Event Handling](./e01-grokking-document-state-and-event-handling/)
 An example that tests `addEventListener` and `removeEventListener` but intertwined with state management via element attributes and class element reading.
+
+## [e02 &mdash; Grokking Event Propagation](./e02-grokking-event-propagation/)
+An example of using event propagation to detect which button was clicked without defining an event listerner for each of the buttons of a button group.

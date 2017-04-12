@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Hello Event Propagation!</title>
+    <title>Preventing Default Behavior!</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -17,14 +17,15 @@
   <body>
     <!-- Have a look at the console while running this -->
     <div class="jumbotron">
-      <h1 class="display-3">Hello Event Propagation!</h1>
+      <h1 class="display-3">Preventing Default Behavior from being triggered!</h1>
       <p class="lead">
-        In this example we illustrate how events are propagated from children nodes to parent nodes.
+        In this example we illustrate how to use <code>event.preventDefault()</code>
+        to prevent browser's default behavior from being triggered.
       </p>
       <hr class="my-4">
       <p class="lead" id="surrounding-para">
-        <button class="btn btn-primary btn-lg" id="btn-propagate">With Propagation!</button>
-        <button class="btn btn-secondary btn-lg" id="btn-no-propagate">With Stop Propagate</button>
+        <button class="btn btn-primary btn-lg" id="btn-no-context-menu">Click Me! (preventDefault)</button>
+        <button class="btn btn-secondary btn-lg">Click Me!</button>
       </p>
     </div>        
     <div class="alert alert-info" id="infobox">

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Hello Event Propagation!</title>
+    <title>Grokking Events!</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -17,14 +17,24 @@
   <body>
     <!-- Have a look at the console while running this -->
     <div class="jumbotron">
-      <h1 class="display-3">Hello Event Propagation!</h1>
+      <h1 class="display-3">Grokking Events</h1>
       <p class="lead">
         In this example we illustrate how events are propagated from children nodes to parent nodes.
       </p>
       <hr class="my-4">
       <p class="lead" id="surrounding-para">
-        <button class="btn btn-primary btn-lg" id="btn-propagate">With Propagation!</button>
-        <button class="btn btn-secondary btn-lg" id="btn-no-propagate">With Stop Propagate</button>
+        <button class="btn btn-primary btn-lg" id="btn-propagate">Click Me!</button>
+        <button class="btn btn-secondary btn-danger btn-lg">Kiss Me!</button>
+        <button class="btn btn-secondary btn-success btn-lg">Kill Me!</button>        
+        <button class="btn btn-secondary btn-info btn-lg">Hold Me!</button>                
+        <button class="btn btn-secondary btn-warning btn-lg">Thrill Me!</button>
+        <!-- There's no such thing as an <p> within a <p> (see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) -->
+        <p id="inner-para"> 
+          <button class="btn btn-secondary btn-danger btn-lg">One</button>
+          <button class="btn btn-secondary btn-success btn-lg">Two</button>        
+          <button class="btn btn-secondary btn-info btn-lg">Three</button>                
+          <button class="btn btn-secondary btn-warning btn-lg">Catorce</button>          
+        </p>               
       </p>
     </div>        
     <div class="alert alert-info" id="infobox">
