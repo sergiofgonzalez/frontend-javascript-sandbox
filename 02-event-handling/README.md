@@ -28,8 +28,11 @@ Introduces basics of mouse motion handling by listening to `mousemove` events.
 ## [09 &mdash; Hello Scrolling!](./09-hello-scroll-events/)
 Introduces basics of scrolling and handling of the  `scroll` event.
 
-## [10 &mdash; Hello Focus Events!](./10-hello-focus-events/)
-Introduces basics of focus in form elements by definining listeners for `focus` and `blur` events.
+## [11 &mdash; Hello Load Events!](./10-hello-load-events/)
+Introduces basics of load related events including `load` and `beforeunload` events.
+
+## [12 &mdash; Hello Web Workers!](./11-hello-web-workers/)
+Introduces basics of web workers.
 
 ## [e01 &mdash; Grokking State and Event Handling](./e01-grokking-document-state-and-event-handling/)
 An example that tests `addEventListener` and `removeEventListener` but intertwined with state management via element attributes and class element reading.

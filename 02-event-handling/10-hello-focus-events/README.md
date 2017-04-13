@@ -1,5 +1,5 @@
-# 09 &mdash; Hello Focus Events!
-> handling `scroll` event
+# 10 &mdash; Hello Focus Events!
+> handling `focus` and `blur` event
 
 ## Description
 
