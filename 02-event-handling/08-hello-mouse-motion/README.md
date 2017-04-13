@@ -1,5 +1,5 @@
 # 08 &mdash; Hello Mouse Motion!
-> handling 
+> handling `mousemove` events
 
 ## Description
 

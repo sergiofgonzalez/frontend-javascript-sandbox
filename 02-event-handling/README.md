@@ -22,8 +22,14 @@ Introduces basics of key event handling: `keydown`, `keyup` and `keypress` event
 ## [07 &mdash; Hello Mouse Clicks!](./07-hello-mouse-clicks/)
 Introduces basics of mouse click handling: `mousedown`, `mouseup`, `click` and `dblclick` event handling.
 
-## [08 &mdash; Hello Mouse Motion!](./07-hello-mouse-motion/)
+## [08 &mdash; Hello Mouse Motion!](./08-hello-mouse-motion/)
 Introduces basics of mouse motion handling by listening to `mousemove` events.
+
+## [09 &mdash; Hello Scrolling!](./09-hello-scroll-events/)
+Introduces basics of scrolling and handling of the  `scroll` event.
+
+## [10 &mdash; Hello Focus Events!](./10-hello-focus-events/)
+Introduces basics of focus in form elements by definining listeners for `focus` and `blur` events.
 
 ## [e01 &mdash; Grokking State and Event Handling](./e01-grokking-document-state-and-event-handling/)
 An example that tests `addEventListener` and `removeEventListener` but intertwined with state management via element attributes and class element reading.
