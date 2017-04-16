@@ -9,3 +9,6 @@ Illustrates the basics of async requests using `XMLHttpRequest` method.
 
 ## [03 &mdash; Wrapping XMLHttpRequests in Promises](./03-hello-xmlhttprequest-in-promise/)
 Illustrates how to wrap an XMLHttpRequest in a promise.
+
+## [04 &mdash; Introducing the Fetch API](./04-hello-fetch/)
+Introduces the convenient `fetch` API to interact with HTTP resources. 
