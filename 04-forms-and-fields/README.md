@@ -9,3 +9,6 @@ Explores the different form fields: `<input>` (`type="text"`, `type="password"`,
 
 ## [03 &mdash; Disabling Form Fields](./03-disabling-form-fields/)
 Explores how to set the `disable` attribute programmatically. In the example, when the user clicks on the `submit` button, it is disabled for 5 seconds.
+
+## [04 &mdash; Hello Forms](./04-hello-forms/)
+Explores how to handle a form as whole. In the example, we have a form and the JavaScript handles some validation and controls whether the form can be submitted.
