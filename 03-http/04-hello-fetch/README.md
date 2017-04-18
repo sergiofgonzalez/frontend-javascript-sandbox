@@ -13,7 +13,7 @@ In the example we illustrate several frontend use cases:
 + Submitting an HTTP GET request to retrieve an image and display it in the HTML document
 + Performing an empty HTTP GET and retrieving results from the server as JSON
 + Sending a JSON encoded HTTP POST and reading results as JSON
-+ Sending Form Data using the `FormData` API. Note that i wasn't able to properly handle the information on the server side with koa2.
++ Sending Form Data using the `FormData` API. Note that i wasn't able to properly handle the information on the server side with koa2 (Hint: I'd need to use `multer` for that).
 
 For further information, review:
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch

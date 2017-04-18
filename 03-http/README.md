@@ -12,3 +12,4 @@ Illustrates how to wrap an XMLHttpRequest in a promise.
 
 ## [04 &mdash; Introducing the Fetch API](./04-hello-fetch/)
 Introduces the convenient `fetch` API to interact with HTTP resources. 
+

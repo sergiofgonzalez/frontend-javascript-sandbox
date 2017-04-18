@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Hello Form Fields!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/styles1.css">
+
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Hello Form Fields!</h1>
+      <p class="lead">
+        Exploring the different types of form fields.
+      </p>
+      <hr class="my-4">
+      <div class="form-group">
+        <label for="inputText">Text</label>
+        <input type="text" class="form-control" id="inputText" placeholder="Enter single line of text" value="pre-populated">
+      </div>
+      <div class="form-group">
+        <label for="inputPassword">Text</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password" value="secret">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label" for="inputCheckbox">
+          <input type="checkbox" class="form-check-input" id="inputCheckbox">
+          Checkbox
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radios" id="inputRadio1" value="option1" checked>
+          Option 1
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radios" id="inputRadio2" value="option2">
+          Option 2
+        </label>        
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radios" id="inputRadio3" value="option3" disabled>
+          Option 3 is disabled
+        </label>        
+      </div>      
+      <div class="form-group">
+        <label for="inputFile">File</label>
+        <input type="file" class="form-control-file" id="inputFile">
+      </div>
+      <div class="form-group">
+        <label for="textarea">Textarea</label>
+        <textarea class="form-control" id="textarea" rows="3">
+          one line
+          two lines
+          three lines
+        </textarea>
+      </div>
+      <div class="form-group">
+        <label for="select1">Select Type 1</label>
+        <select class="form-control" id="select1">
+          <option>One</option>
+          <option>Two</option>
+          <option>Three</option>
+          <option>Four</option>
+          <option>Five</option>                                        
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="select2">Select Type 2</label>
+        <select multiple class="form-control" id="select2">
+          <option>One</option>
+          <option>Two</option>
+          <option>Three</option>
+          <option>Four</option>
+          <option>Five</option>                                        
+        </select>
+      </div>      
+      <button type="submit" class="btn btn-primary">Submit</button>            
+    </div>
+    <div class="alert alert-info" id="infobox">
+    </div>      
+    <script src="javascript/infobox-logging.js"></script>       
+    <script src="javascript/app.js"></script>    
+  </body>
+</html>

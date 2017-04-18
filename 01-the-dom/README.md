@@ -1,6 +1,9 @@
 # 01: The DOM
 > Basic DOM related examples
 
+## [00 &mdash; Express Project Template](./00-prj-template-express/)
+An Express based project template configured to serve a frontend app.
+
 ## [00 &mdash; Koa Project Template](./00-prj-template-koa/)
 A Koa based project template configured to serve a frontend app.
 
