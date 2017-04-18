@@ -1,5 +1,5 @@
-# 00-prj-template-express
-> a more involved project template using *Express*
+# 01 &mdash; Hello Form Fields
+> exploring how to layout form fields on an HTML document
 
 ## Description
 
