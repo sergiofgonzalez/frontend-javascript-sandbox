@@ -18,3 +18,6 @@ Explores the properties we have at our disposal to interact with text fields (`<
 
 ## [06 &mdash; Hello Checkbox and Radio Fields](./06-hello-checkbox-and-radio/)
 Explores the properties we have at our disposal to interact with text fields (`<input type="checkbox">` and `<input type="radio">`);
+
+## [07 &mdash; Hello Select](./07-hello-select/)
+Explores how to interact with `<select>` and `<select multiple>` input fields.

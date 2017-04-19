@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Hello Select!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/styles1.css">
+
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Hello Select!</h1>
+      <p class="lead">
+        Interacting with <code>&lt;select&gt;</code> and <code>&lt;select multiple&gt;</code> from JavaScript.
+      </p>
+      <hr class="my-4">
+      <div class="form-group">
+        <label for="maincourse-select">Main Course Selection</label>
+        <select class="form-control" id="maincourse-select">
+          <option value="none" disabled selected>Select your main course...</option>
+          <option>spaghetti</option>
+          <option value="burger">Cheese Burger with Fries</option>
+          <option>Paella</option>
+        </select>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Your Selection</label>
+        <div class="col-sm-10">
+          <p class="form-control-static" id="text-maincourse"></p>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="form-group">
+        <label for="bin-number-select">Build your File Permissions</label>
+        <select size="3" class="form-control" id="bin-number-select" multiple>
+          <option value="4">Add READ permissions</option>                    
+          <option value="2">Add WRITE permissions</option>          
+          <option value="1">Add EXEC permissions</option>
+        </select> = <span id="effective-permissions">0</span>
+    </div>
+    <script src="javascript/app.js"></script>    
+  </body>
+</html>
