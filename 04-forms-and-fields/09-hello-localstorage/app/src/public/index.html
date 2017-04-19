@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Hello localStorage</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/styles1.css">
+
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Hello <code>localStorage</code>!</h1>
+      <p class="lead">
+        A simplistic <em>note-taking</em> application using <code>localStorage</code>
+      </p>
+      <hr class="my-4">
+      <div class="form-group">
+        <label for="maincourse-select">Notes</label>
+        <select class="form-control" id="list">
+          <option disabled selected>Select note to view...</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <textarea id="current-note" class="form-control" placeholder="Note is currently empty" rows="5"></textarea>
+      </div>
+      <button class="btn btn-primary">Save</button>
+    </div>
+    <script src="javascript/app.js"></script>    
+  </body>
+</html>
