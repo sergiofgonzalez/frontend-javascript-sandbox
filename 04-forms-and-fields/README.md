@@ -21,3 +21,6 @@ Explores the properties we have at our disposal to interact with text fields (`<
 
 ## [07 &mdash; Hello Select](./07-hello-select/)
 Explores how to interact with `<select>` and `<select multiple>` input fields.
+
+## [08 &mdash; Hello File Fields](./08-hello-file-field/)
+Explores how to interact with `<select type="file">` and `<select type="file" multiple>` input fields. It also demonstrates how to use the `FileReader` interface to read the contents of the selected files.
