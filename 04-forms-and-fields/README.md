@@ -15,3 +15,6 @@ Explores how to handle a form as whole. In the example, we have a form and the J
 
 ## [05 &mdash; Hello Text Fields](./05-hello-text-fields/)
 Explores the properties we have at our disposal to interact with text fields (`<input type="text">` and `<textarea>`);
+
+## [06 &mdash; Hello Checkbox and Radio Fields](./06-hello-checkbox-and-radio/)
+Explores the properties we have at our disposal to interact with text fields (`<input type="checkbox">` and `<input type="radio">`);

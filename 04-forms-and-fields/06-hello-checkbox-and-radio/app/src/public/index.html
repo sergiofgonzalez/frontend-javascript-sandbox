@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Hello Checkboxes and Radio Buttons!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/styles1.css">
+
+  </head>
+  <body>
+    <!-- Have a look at the console while running this -->
+    <div class="jumbotron">
+      <h1 class="display-3">Hello Checkboxes and Radio Buttons!</h1>
+      <p class="lead">
+        Interacting with <code>&lt;input type="checkbox"&gt;</code> and <code>&lt;input type="radio"&gt;</code> from JavaScript.
+      </p>
+      <hr class="my-4">
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" id="purple-checkbox">
+          Set background color to <code>mediumpurple</code>
+        </label>
+      </div>
+      <fieldset class="form-group">
+        <legend>Background Color Radio Buttons</legend>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="backgroundColorRadios" value="" checked>
+            Default background color
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="backgroundColorRadios" value="lightgreen">
+            Set background color to <code>lightgreen</code>
+          </label>
+        </div>        
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="backgroundColorRadios" value="lightblue">
+            Set background color to <code>lightblue</code>
+          </label>
+        </div>                
+      </fieldset>
+    </div>
+    <script src="javascript/app.js"></script>    
+  </body>
+</html>
