@@ -67,7 +67,7 @@ function setButtonStatus() {
   }
 }
 
-addEventListener("keyup", () => {
+addEventListener("input", () => {
   if (nameInput.value.length < 5 || surnameInput.value.length < 10) {
     btn.disabled = true;
   } else {

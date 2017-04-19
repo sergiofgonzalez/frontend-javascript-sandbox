@@ -12,3 +12,6 @@ Explores how to set the `disable` attribute programmatically. In the example, wh
 
 ## [04 &mdash; Hello Forms](./04-hello-forms/)
 Explores how to handle a form as whole. In the example, we have a form and the JavaScript handles some validation and controls whether the form can be submitted.
+
+## [05 &mdash; Hello Text Fields](./05-hello-text-fields/)
+Explores the properties we have at our disposal to interact with text fields (`<input type="text">` and `<textarea>`);
